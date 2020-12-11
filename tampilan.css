@@ -1,0 +1,20 @@
+h1 {
+	color : green;
+	font-family: arial;
+	font : bold;
+	background-color : Images/Gambar 2.jpg;
+	line-height : 25px;
+	padding :10px;
+	border-radius : 10px;
+}
+a {
+	color : green;
+	background-color : gold;
+	font-family : trebuchet MS;
+	font-weight : bold;
+	border: 2px solid gold;
+	line-height : 25px;
+	padding :10px;
+	border-radius : 10px;
+	
+}

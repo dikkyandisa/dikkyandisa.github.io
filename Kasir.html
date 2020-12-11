@@ -1,0 +1,75 @@
+<!-- 
+	DIKKY ANDISA TRIPAMUNGKAS
+	TI 2B
+ -->
+<html>
+<head>
+<title> Resto Tengah Sawah </title>
+<link rel="stylesheet" type="text/css" href="tampilan.css">
+	<script src="jquery-3.5.1.js"></script>
+	<script>
+		$(document).ready(function() {
+			$("#btn1").click(function() {
+			alert("ID Pembeli : " + $("#test1").val())
+			alert("Nama Pembeli : " + $("#test2").val())
+			alert("Makanan : " + $("#test3").val())
+			alert("Jumlah Pemesanan : " + $("#test4").val())
+			});
+		});
+	</script>
+</head>
+<body>
+
+<table border ="1" height="700" width="900" align="center" cellpadding="1" cellspacing="8" >
+<tr height="80">
+	<td colspan="2" background="Images/Gambar 2.jpg"> <h1> Resto Tengah Sawah </h1></td>
+</tr>
+
+<tr height="60">
+	<td colspan="2"> 
+	<a href="Index.html"> Beranda </a>
+	<a href="Kasir.html"> Kasir Pemesanan</a>
+	<a href="InfoLebih.html">Info Lebih Lanjut </a>
+	</td>
+</tr>
+
+<tr>
+	<td width="400" align="left" valign="top" background="Images/Gambar 2.jpg"> 
+	<p> <b> Lokasi > Indonesia > Jawa Timur > Blitar > Resto Tengah Sawah </b></p>
+	<br> <br> <br>
+	<h1 align="center"> Tempat Pemesanan </h1> 
+	<form action="Kasir.html" method="get">
+	<br>
+	<p> Id Pembeli : <input type="text" id="test1"></p>
+	<p> Nama Pembeli : <input type="text" id="test2"></p>
+	<p>Status Pembeli</p>
+      <p><input type='radio' name='StatusPembeli' value='Member' />Member</p>
+      <p><input type='radio' name='StatusPembeli' value='NonMember' />Non-Member</p>
+	<p> Makanan : <input type="text" id="test3"></p>
+	<p> Jumlah Pemesanan : <input type="text" id="test4"></p>
+	<button id="btn1">Pesan</button>
+</td>
+
+
+<td valign="top" background="Images/Gambar 2.jpg" align="center">
+	<h1 > Menu Makanan</h1>
+	<h1> Menu Burger</h1>  
+	<img src="Images/Menu Burger.jpg" width="360"> 
+	<h1> Menu Pizza</h1>
+	<img src="Images/menu pizza.jpg" width="360" height="360">
+	<h1> Menu Coffe</h1>
+	<img src="Images/menu coffe.jpg" width="360" height="360">
+	<br> <br>
+</td>
+</tr>
+
+<tr>
+<td colspan="2" > <h1 align="center">
+Nama : DIKKY ANDISA TRIPAMUNGKAS <br> <br>
+Kelas : TI 2B
+</h1>
+</td>
+</tr>
+</table>
+</body>
+</html>
